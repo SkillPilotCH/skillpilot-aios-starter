@@ -16,6 +16,6 @@
 <!-- Beispiel-Eintrag — entfernen, sobald du den ersten echten Eintrag hast. -->
 ## 2026-05-02 — AIOS aufgesetzt
 
-- **Was:** Diesen Workspace mit dem SkillPilot AIOS Starter initialisiert.
-- **Warum:** Strukturierter Kontext + delegierbare Skills statt Copy-Paste-KI.
-- **Konsequenz:** Ab jetzt wird Wissen nicht mehr nur in Köpfen und E-Mails gespeichert, sondern hier — versionierbar, durchsuchbar, von Claude Code lesbar.
+- **Was:** Diesen Workspace mit dem SkillPilot AIOS Starter initialisiert und das Superpowers-Plugin (`superpowers@claude-plugins-official`) aktiviert.
+- **Warum:** Strukturierter Kontext + delegierbare Skills statt Copy-Paste-KI. Superpowers liefert die Workflow-Skills (brainstorming, writing-plans, TDD, verification) als Werks-Käse.
+- **Konsequenz:** Ab jetzt wird Wissen nicht mehr nur in Köpfen und E-Mails gespeichert, sondern hier — versionierbar, durchsuchbar, von Claude Code lesbar. Neue Vorhaben starten mit `/brainstorm` (statt sofort drauflos).

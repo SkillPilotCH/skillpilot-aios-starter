@@ -22,10 +22,19 @@ Ein Template-Repo, organisiert entlang der **vier Cs**: Context, Connections, Ca
 2. Öffne dieses Verzeichnis in VS Code.
 3. Starte Claude Code im VS Code Sidebar.
 4. Sag Claude Code in eigenen Worten, dass er dieses Repo (`https://github.com/SkillPilotCH/skillpilot-aios-starter`) hierhin klonen und den Git-Remote entfernen soll, weil das hier dein eigenes AIOS wird, kein Fork.
-5. Lass Claude Code dann `/onboard` aufrufen — das Interview befüllt dein Skelett mit deinem Kontext.
-6. Wenn das durch ist, sag Claude Code: *"Erstell mir bitte ein privates GitHub-Repo unter meinem Account, push diesen Stand dahin und erklär mir kurz, was passiert ist."*
+5. Sag dann: *"Bitte installier mir das Plugin `superpowers@claude-plugins-official` und erklär mir kurz, was ich damit mache."* (siehe nächste Sektion — gibt deinem Claude Code zusätzliche Skills für strukturiertes Arbeiten.)
+6. Lass Claude Code `/onboard` aufrufen — das Interview befüllt dein Skelett mit deinem Kontext.
+7. Wenn das durch ist, sag Claude Code: *"Erstell mir bitte ein privates GitHub-Repo unter meinem Account, push diesen Stand dahin und erklär mir kurz, was passiert ist."*
 
 Das war's. Tastatur-Befehle nicht nötig — du delegierst, Claude Code übersetzt.
+
+## Empfohlene Erweiterung: Superpowers
+
+Das von Anthropic kuratierte Plugin [`superpowers`](https://github.com/obra/superpowers) gibt Claude Code zusätzliche Skills für strukturiertes Arbeiten — `brainstorming` (Design vor Code), `writing-plans` (Implementierungspläne), `test-driven-development`, `verification-before-completion`, `code-reviewer` und mehr.
+
+Installation einfach in eigenen Worten an Claude Code delegieren (siehe Schritt 5 oben). Im Hintergrund läuft `/plugin install superpowers@claude-plugins-official`.
+
+Das `CLAUDE.md` in diesem Repo verweist gezielt auf die wichtigsten Superpowers-Skills, sodass Claude Code sie automatisch nutzt, wenn das Plugin installiert ist.
 
 ## Die vier Cs in einem Satz
 

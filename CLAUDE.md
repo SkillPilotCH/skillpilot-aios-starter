@@ -32,6 +32,18 @@ Lies einmalig `references/4cs-framework.md`. So denken wir hier über KI-Arbeit.
 
 Tastatur-Befehle sind optional. Beschreib mir, was du willst (auch per Wispr Flow oder vergleichbarem Voice-Tool), ich übersetze in Tool-Aufrufe. Du musst nichts auswendig lernen.
 
+## Wenn Superpowers installiert ist
+
+Wenn das Plugin `superpowers@claude-plugins-official` aktiv ist, bevorzugst du folgende Skills automatisch:
+
+- `brainstorming` — vor jedem neuen, nicht-trivialen Vorhaben (Design vor Code).
+- `writing-plans` — wenn ich dich bitte, etwas Mehrschrittiges zu bauen.
+- `test-driven-development` — sobald Code involviert ist (Tests vor Implementation).
+- `verification-before-completion` — bevor du sagst "fertig" oder "passt".
+- `using-git-worktrees` — bei längeren Feature-Arbeiten in bestehenden Repos.
+
+Falls Superpowers nicht installiert ist, ignorier diesen Block — die anderen Sektionen bleiben gültig. Falls ich dich in eigenen Worten bitte, das Plugin zu installieren, erledigst du das via Plugin-System (`/plugin install superpowers@claude-plugins-official`) und erklärst kurz, was sich dadurch ändert.
+
 ## Arbeitsweise (für dich, Claude)
 
 - Schlussfolgerung zuerst, Herleitung bei Bedarf.
