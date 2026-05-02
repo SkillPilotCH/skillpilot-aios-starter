@@ -1,0 +1,21 @@
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets — never commit
+.env
+.env.*
+*.local
+
+# Claude Code local overrides
+.claude/settings.local.json
+
+# Node / generic
+node_modules/
