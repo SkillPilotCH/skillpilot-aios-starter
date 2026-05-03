@@ -34,6 +34,8 @@ Das von Anthropic kuratierte Plugin [`superpowers`](https://github.com/obra/supe
 
 Installation einfach in eigenen Worten an Claude Code delegieren (siehe Schritt 5 oben). Im Hintergrund läuft `/plugin install superpowers@claude-plugins-official`.
 
+**Einmal pro Maschine, gilt überall.** Das Plugin wird user-level installiert (`~/.claude/plugins/`), nicht in dieses Projekt. Sobald es einmal aktiv ist, steht es in jedem VS-Code-Workdir zur Verfügung — diesem AIOS, einem späteren Code-Repo, einem Hobby-Projekt. Du musst es nicht pro Projekt neu einrichten.
+
 Das `CLAUDE.md` in diesem Repo verweist gezielt auf die wichtigsten Superpowers-Skills, sodass Claude Code sie automatisch nutzt, wenn das Plugin installiert ist.
 
 ## Die vier Cs in einem Satz
